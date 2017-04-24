@@ -1,0 +1,5 @@
+data/FIDS30/**/*.jpg
+data/FIDS30/**/*.txt
+data/images/*.pickle
+*.zip
+.idea
