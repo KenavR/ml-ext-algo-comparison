@@ -28,4 +28,5 @@ def runAndPrintAllClassifier(data, target):
     printEvaluationRow("SVC", *runSVC(data, target))
     printEvaluationRow("LinearSVC", *runLinearSVC(data, target))
     printEvaluationRow("Naive Bayes", *runNaiveBayes(data, target))
+    printEvaluationRow("Perceptron", *runPerceptron(data, target))
     return
